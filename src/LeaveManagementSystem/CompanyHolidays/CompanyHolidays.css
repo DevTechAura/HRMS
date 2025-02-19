@@ -1,0 +1,139 @@
+.company-holidays {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.month-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+.month-row h3 {
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.holiday-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.holiday-box .holiday-name {
+    background-color: #f0f8ff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.header-line {
+    display: flex;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.header-line div {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.header-line .separator {
+    background-color: #000;
+    width: 2px;
+    height: 100%;
+}
+
+.add-holiday-button:hover {
+    background-color: #0056b3;
+}
+
+/* Popup overlay */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Popup content */
+.popup-content {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Popup fields */
+.popup-field {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.popup-field label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+/* Popup field inputs */
+.popup-field input,
+.popup-field select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Popup action buttons */
+.popup-actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.popup-actions button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.popup-actions button:hover {
+    background-color: #0056b3;
+}
+
+/* Cancel button style */
+.popup-actions button:last-child {
+    background-color: #cccccc;
+    color: #000000;
+}
+
+.popup-actions button:last-child:hover {
+    background-color: #b3b3b3;
+}

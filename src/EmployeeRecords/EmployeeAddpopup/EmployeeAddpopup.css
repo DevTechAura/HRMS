@@ -1,0 +1,690 @@
+/* Pop-Up Container */
+.pop-up-container {
+    position: fixed;
+    top: 7rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1100px;
+    height: 580px;
+    background-color: white;
+   
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+        /* Enables vertical scrolling */
+        overflow-x: hidden;
+        /* Disables horizontal scrolling */
+    padding: 20px;
+    z-index: 600;
+}
+
+/* Content inside the Pop-Up */
+.pop-up-content {
+    max-height: 360px;
+    /* Keeps content within the container */
+    overflow-y: auto;
+    /* Enables scroll */
+}
+
+.firstnameEAP {
+    position: fixed;
+    top: -0.2rem;
+    left: 1rem;
+    display: block;
+   
+        /* Make label take full width */
+        margin-bottom: 5px;
+    flex-direction: column; /* Stacks the label above the input */
+    width: 300px; /* Ensures both label and in.popupEAP {
+    max-height: 80vh; /* Ensures it doesn't exceed 80% of the viewport height */
+    overflow-y: auto; /* Enables vertical scrolling */
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    width:300px; /* Adjust width as necessary */
+    margin: 0 auto; /* Centers the popup */
+    box-sizing: border-box;
+}
+
+
+
+.firstnameinputEAP{
+    background-color: #d9d9e5;
+    border-color: white;
+}
+
+.MiddlenameEAP {
+    position: fixed;
+        top: 1rem;
+    left: 23rem;
+    width: 300px;
+}
+
+.LastnameEAP {
+    position: fixed;
+        top: 1rem;
+        width: 300px;
+    left: 45rem;
+    
+}
+.PersonalEmailEAP {
+    position: fixed;
+    top: 7rem;
+    width: 300px;
+    left: 2rem;
+}
+.PasswordEAP {
+    position: fixed;
+        top: 7rem;
+        width: 300px;
+        left: 23rem;
+}
+.MobileNumberEAP {
+    position: fixed;
+    top: 7rem;
+    width: 300px;
+    left: 45rem;
+}
+.empIDEAP {
+    position: fixed;
+    top: 14rem;
+    width: 300px;
+    left: 2rem;
+}
+
+.assign-roleEAP {
+    position: fixed;
+    top: 14rem;
+    width: 300px;
+    left: 23rem;
+}
+
+.assign-roleEAP label {
+    display: block;
+    /* Make label take full width */
+    margin-bottom: 5px;
+    /* Space between label and select */
+
+    /* Optional: makes the label text bold */
+}
+
+.assign-roleEAP select {
+    width: 300px;
+    /* Set width */
+    height: 47px;
+    /* Set height */
+    padding: 10px;
+    /* Adds padding inside the select */
+    border: 1px solid #FF5733;
+    /* Orange border */
+    border-radius: 4px;
+    /* Slightly rounded corners */
+    box-sizing: border-box;
+    /* Ensures padding is included in width */
+    font-size: 16px;
+    /* Optional: sets font size */
+    outline: none;
+    /* Removes default outline on focus */
+    transition: border-color 0.3s;
+    /* Optional: smooth transition for border color */
+}
+
+.assign-roleEAP select:focus {
+    border-color: #007BFF;
+    /* Change border color on focus */
+}
+
+.departmentEAP {
+    position: fixed;
+    top: 14rem;
+    left: 45rem;
+    margin-bottom: 20px;
+    /* Adds space below the field */
+}
+
+.departmentEAP label {
+    display: block;
+    /* Make label take full width */
+    margin-bottom: 5px;
+    /* Space between label and select */
+
+}
+
+.departmentEAP select {
+    width: 300px;
+    /* Set width */
+    height: 47px;
+    /* Set height */
+    padding: 10px;
+    /* Adds padding inside the select */
+    border: 1px solid #4CAF50;
+    /* Green border */
+    border-radius: 10px;
+    /* Slightly rounded corners */
+    box-sizing: border-box;
+    /* Ensures padding is included in width */
+    font-size: 16px;
+    /* Optional: sets font size */
+    outline: none;
+    /* Removes default outline on focus */
+    transition: border-color 0.3s;
+    /* Optional: smooth transition for border color */
+}
+
+.departmentEAP select:focus {
+    border-color: #007BFF;
+    /* Change border color on focus */
+}
+
+.pincodeEAP {
+    position: fixed;
+    top: 21rem;
+    left: 2rem;
+    width: 300px;
+}
+.addressEAP {
+    position: Fixed;
+    top: 21rem;
+    left: 23rem;
+    width: 710px;
+}
+
+.countryDropdownEAP {
+    position: fixed;
+    top: 28rem;
+    left: 2rem;
+    width: 300px;
+}
+
+.stateDropdownEAP {
+    position: fixed;
+    top: 28rem;
+    left: 23rem;
+    width: 200px;
+}
+
+.cityEAP {
+    position: fixed;
+    top: 28rem;
+    left: 45rem;
+    width: 300px;
+}
+
+
+.FamilyContactEAP {
+    position: fixed;
+    top: 35rem;
+    left: 2rem;
+    width: 300px;
+}
+
+.FamilyemailEAP {
+    position: fixed;
+    top: 35rem;
+    left: 23rem;
+    width: 300px;
+}
+
+.employeementtypeEAP {
+    display: flex;
+    position: fixed;
+    top: 37rem;
+    left: 45rem;
+}
+
+.permanentaddressEAP {
+    position: fixed;
+    top: 43rem;
+    left: 2rem;
+    width: 710px;
+
+}
+
+.reportingmanagerEAP {
+    position: fixed;
+    top: 46rem;
+    left: 49rem;
+    width: 350px;
+}
+
+.hrmss-button {
+    position: fixed;
+    width: 50px;
+    border-radius: 100px;
+    left: 70rem;
+    top: 46rem;
+    color: white;
+    background-color: #007BFF;
+}
+
+.ManagernameEAP {
+    position: absolute;
+    top: 14rem;
+    left: 3rem;
+    width: 350px;
+}
+
+
+
+
+.Gender {
+    position: absolute;
+    top: 19rem;
+    left: 3rem;
+    width: 350px;
+}
+
+.Joiningdate1 {
+    position: absolute;
+    top: 24rem;
+    /* Adjust as necessary */
+    left: 26rem;
+    width: 350px;
+
+    /* Match Address width */
+}
+
+.datepicker-container1 {
+    width: 165%;
+}
+
+.datepicker {
+    width: 165%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.Exitdate {
+    position: absolute;
+    top: 24rem;
+    /* Adjust as necessary */
+    left: 49rem;
+    width: 350px;
+    /* Match Address width */
+}
+
+.datepicker-container1 {
+    width: 165%;
+}
+
+
+
+
+
+.datepicker {
+    width: 165%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.DateOfBirth1 {
+    position: absolute;
+    width: 350px;
+    top: 19rem;
+    left: 26rem;
+    /* Set the width for the container */
+    margin-bottom: 20px;
+    /* Add some space below the section */
+}
+
+
+
+.datepicker1 {
+    border: none;
+    /* Remove default border */
+    outline: none;
+    /* Remove outline */
+    height: 250%;
+    /* Full height of the container */
+    width: 350px;
+    /* Full width */
+    font-size: 16px;
+    /* Set font size */
+}
+
+
+
+
+
+
+
+.DateOfJoining {
+    position: absolute;
+    top: 24.5rem;
+    left: 3rem;
+    width: 350px;
+}
+
+.DateOfExit {
+    position: absolute;
+    top: 24.5rem;
+    left: 26rem;
+    width: 350px;
+}
+
+.stateEAP {
+    position: fixed;
+    top: 30.4rem;
+    left: 26rem;
+    width: 350px;
+}
+
+
+
+.save-buttonEAP {
+    position: fixed;
+    top: 62rem;
+    left: 20rem;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: green;
+}
+
+.popupcloseEAP {
+    position: fixed;
+    top: 62rem;
+    left: 33rem;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: red;
+}
+
+
+
+
+.jobdescription {
+    position: fixed;
+    top: 53rem;
+    left: 45rem;
+    width: 300px;
+}
+
+
+
+
+
+.fulltimecheckbox {
+
+    position: fixed;
+    top: 39rem;
+    left: 59rem;
+}
+
+.parttimecheckbox {
+    position: fixed;
+    top: 39rem;
+    left: 66rem;
+}
+
+.contractcheckbox {
+    position: fixed;
+    display: flex;
+    top: 39rem;
+    left: 70rem;
+}
+
+/* Style for the checkboxes */
+input[type="checkbox"] {
+    width: 18px;
+    /* Adjust width */
+    height: 18px;
+    /* Adjust height */
+    margin-right: 10px;
+    margin-top: 20px;
+    /* Space between checkbox and label */
+    cursor: pointer;
+    /* Makes the checkbox clickable */
+}
+
+/* Optional: Add some custom styling to the toggle switch */
+
+
+
+
+
+
+/* Optional: To make the text size smaller */
+.label {
+  
+    font-size: 14px;
+    /* Adjust text size */
+}
+
+.p1 {
+    position: absolute;
+    top: 3rem;
+    left: -5rem;
+}
+
+.p2 {
+    position: absolute;
+    top: 3rem;
+    left: 5rem;
+}
+
+.parttime-timing {
+    position: absolute;
+    top: 2.5rem;
+    left: -2rem;
+    width: 100px;
+    font-size: 12px;
+    height: 30px;
+}
+
+.parttime-timings {
+    position: absolute;
+    top: 2.5rem;
+    left: 7rem;
+    width: 100px;
+    font-size: 12px;
+    height: 30px;
+}
+
+.contractStartDate {
+    position: absolute;
+    top: 3rem;
+    left: -12rem;
+}
+
+.contractEndDate {
+    position: absolute;
+    top: 3rem;
+    left: -2rem;
+
+}
+
+.contractStartDatePicker {
+    position: absolute;
+    top: 2.5rem;
+    left: -7.6rem;
+    width: 80px;
+    font-size: 12px;
+    height: 30px;
+}
+
+.contractEndDatePicker {
+    position: absolute;
+    top: 2.5rem;
+    left: 1.9rem;
+    width: 80px;
+    font-size: 12px;
+    height: 30px;
+}
+
+.reportingmanager {
+    position: fixed;
+    top: 58rem;
+    left: 49rem;
+    width: 350px;
+}
+
+.jobTitleEAP {
+    position: fixed;
+    top: 53rem;
+    left: 2rem;
+    width: 300px;
+}
+
+.noticeperiodEAP {
+    position: fixed;
+    top: 53rem;
+    left: 23rem;
+    width: 300px;
+}
+
+/* Reporting Manager Component */
+.hrmss-reportingmanager {
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.hrmss-reportingmanager label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.hrmss-reportingmanager select {
+    width: 200px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+.hrmss-reportingmanager button {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hrmss-reportingmanager button:hover {
+    background-color: #0056b3;
+}
+
+/* Popup Styling */
+
+
+.popupEAP h4 {
+    margin: 0 0 15px;
+    font-size: 18px;
+}
+
+.popupEAP input[type="text"] {
+    position: fixed;
+    top:51rem;
+    width: 200px;
+    height: 40px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.addreportingmanager{
+    position: fixed;
+    top: 48rem;
+    
+}
+
+.popupEAP button {
+    padding: 8px 15px;
+    position: fixed;
+    top:51.7rem;
+    left:73rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.popupEAP button.hrms-save {
+
+    position: fixed;
+
+    background-color: #007bff;
+    color: white;
+    margin-right: 10px;
+    width: 130px;
+    height: 40px;
+    right: 100px;
+    top: 20rem;
+}
+
+.popupEAP button.hrms-save:hover {
+    background-color: #0056b3;
+}
+
+.popupEAP button.hrms-cancel {
+    background-color: #ccc;
+}
+
+.popupEAP button.hrms-cancel:hover {
+    background-color: #999;
+}
+
+
+
+
+
+.hrmss-select {
+    width: 250px;
+    height: 45px;
+}
+
+/* Close Icon Styling */
+.hrmss-close-icon {
+    position: fixed;
+    
+    left:15rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    position: absolute;
+    top: 5rem;
+    right: 10px;
+    padding: 5px;
+}
+
+.hrmss-close-icon:hover {
+    color: #ff0000;
+}
+
+.scrollable-container {
+    position: relative;
+    /* Adjust as needed */
+    max-height: 500px;
+    /* Set a max height for the scrollable area */
+    overflow-y: auto;
+    /* Enables vertical scrolling */
+    padding: 1rem;
+    /* Add padding if needed */
+    border: 1px solid #ccc;
+    /* Optional border */
+    border-radius: 8px;
+    /* Optional rounded corners */
+    background-color: #f9f9f9;
+    /* Optional background color */
+}
+

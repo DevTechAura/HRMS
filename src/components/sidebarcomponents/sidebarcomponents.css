@@ -1,0 +1,117 @@
+.sidebarhead {
+    position: fixed;
+    left: 3.5rem;
+}
+
+.schedulebut {
+    position: fixed;
+    top: 0.5rem;
+    left: 85rem;
+}
+.dashboard {
+    position: relative;
+    left: 22.2rem;
+    top: 1rem;
+    font-size: 22px;
+    font-weight: bold;
+   
+
+}
+.sidebardashtext{
+    display: block;
+        padding: 10px;
+        font-size: 16px;
+        color: black;
+        cursor: pointer;
+        text-align: left;
+        margin-bottom: 15px;
+        width: 260px;
+}
+.active {
+    background-color: #4b55f3;
+    height: 45px;
+
+    /* Active color */
+  
+    /* Text color on active */
+}
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    background: #f8f7fc;
+    font-weight: 100;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 1rem;
+    padding: 20px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li button {
+
+    background: none;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+
+}
+
+
+
+.sidebarfirstbutton {
+    position: fixed;
+    font-size: 8px;
+
+    left: 0.2rem;
+    top: 5rem;
+}
+
+.sidebarsecbutton {
+    position: fixed;
+
+    left: 0.2rem;
+    top: 8.5rem;
+}
+
+.sidebarthirdbutton {
+    position: fixed;
+
+    left: 0.2rem;
+    top: 12.5rem;
+}
+
+.sidebarfourthbutton {
+    position: fixed;
+
+    left: 0.2rem;
+    top: 16.5rem;
+}
+
+.sidebarfivebutton {
+    position: fixed;
+
+    left: 0.2rem;
+    top: 20.5rem;
+}

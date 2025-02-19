@@ -1,0 +1,974 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.homepage-body {
+    background-color: #ececf6;
+    /* Light gray color */
+    min-height: 100vh;
+    /* Ensure it covers the full viewport height */
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* Sidebar styles */
+
+
+.sidebarhead {
+    position: fixed;
+    left: 3.5rem;
+}
+.schedulebut{
+    position: fixed;
+    top:0.5rem;
+    left:85rem;
+}
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    background: #fff;
+    font-weight: 100;
+    color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 1rem;
+    padding: 20px;
+    display: flex;
+    border-radius: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li button {
+
+    background: none;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    padding: 10px;
+    
+}
+
+
+
+.sidebarfirstbutton {
+    position: fixed;
+    font-size: 8px;
+
+    left: 0.2rem;
+    top: 5rem;
+}
+
+.sidebarsecbutton {
+    position: fixed;
+
+    left: 0.2rem;
+    top: 8.5rem;
+}
+
+.sidebarthirdbutton {
+    position: fixed;
+
+    left: 0.2rem;
+    top: 12.5rem;
+}
+
+.sidebarfourthbutton {
+    position: fixed;
+
+    left: 0.2rem;
+    top: 16.5rem;
+}
+
+.sidebarfivebutton {
+    position: fixed;
+
+    left: 0.2rem;
+    top: 20.5rem;
+}
+
+/* Main Content Styles */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.box {
+    background-color: lightblue;
+    width: 23%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+}
+
+.dashboard{
+    position: relative;
+    left:22.2rem;
+    top:1rem;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+
+.boxcontain1 {
+    position: fixed;
+    top: 4rem;
+    left: 22rem;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(243, 248, 250);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+    /* Grid layout properties */
+    display: grid;
+    /* Enable grid layout */
+    grid-template-columns: repeat(2, 1fr);
+    /* Two equal columns */
+    grid-template-rows: auto;
+    /* Rows sized automatically */
+    gap: 10px;
+    /* Space between grid items */
+    padding: 20px;
+    /* Inner padding for the container */
+}
+
+.boxcontain2 {
+    position: fixed;
+    top: 4rem;
+    left: 42rem;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(243, 248, 250);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+    /* Grid layout properties */
+    display: grid;
+    /* Enable grid layout */
+    grid-template-columns: repeat(2, 1fr);
+    /* Two equal columns */
+    grid-template-rows: auto;
+    /* Rows sized automatically */
+    gap: 10px;
+    /* Space between grid items */
+    padding: 20px;
+    /* Inner padding for the container */
+}
+
+.boxcontain3 {
+    position: fixed;
+    top: 18rem;
+    left: 22rem;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(243, 248, 250);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+    /* Grid layout properties */
+    display: grid;
+    /* Enable grid layout */
+    grid-template-columns: repeat(2, 1fr);
+    /* Two equal columns */
+    grid-template-rows: auto;
+    /* Rows sized automatically */
+    gap: 10px;
+    /* Space between grid items */
+    padding: 20px;
+    /* Inner padding for the container */
+}
+
+.boxcontain4 {
+    position: fixed;
+    top: 18rem;
+    left: 42rem;
+    width: 300px;
+    height: 200px;
+    background-color: rgb(243, 248, 250);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+    /* Grid layout properties */
+    display: grid;
+    /* Enable grid layout */
+    grid-template-columns: repeat(2, 1fr);
+    /* Two equal columns */
+    grid-template-rows: auto;
+    /* Rows sized automatically */
+    gap: 10px;
+    /* Space between grid items */
+    padding: 20px;
+    /* Inner padding for the container */
+}
+
+/* Default button styles */
+li a {
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+    /* Default background color */
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Active button (when on Dashboard) */
+.active {
+    background-color: #4b55f3;
+    height: 45px;
+    
+    /* Active color */
+    color: white;
+    /* Text color on active */
+}
+
+.sidebarfivetexts {
+    
+    
+}
+
+
+
+.boxcontain5 {
+    position: fixed;
+    top: 4rem;
+    left: 63rem;
+    width: 450px;
+    height: 620px;
+    background-color: rgb(243, 248, 250);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+    /* Grid layout properties */
+    display: grid;
+    /* Enable grid layout */
+    grid-template-columns: repeat(2, 1fr);
+    /* Two equal columns */
+    grid-template-rows: auto;
+    /* Rows sized automatically */
+    gap: 10px;
+    /* Space between grid items */
+    padding: 20px;
+    /* Inner padding for the container */
+}
+
+.boxcontain6 {
+    position: fixed;
+    top: 32rem;
+    left: 22rem;
+    width: 620px;
+    height: 180px;
+    background-color: rgb(243, 248, 250);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.schedulemeeting{
+    position: fixed;
+    top:6rem;
+    left:75.5rem;
+    width:260px;
+    background-color: #c3a3f4;
+    color: white;
+    height: 28px;
+    text-align: center;
+    font-size: 16px;
+   
+        /* Optional: to add some space inside the header */
+border-radius: 5px;
+}
+
+.selectdate{
+    position: fixed;
+    top:8.5rem;
+    left:80rem;
+    width:250px;
+    height: 25px;
+}
+
+.dateinput{
+    position: fixed;
+        top: 9rem;
+        left:76rem;
+        width: 250px;
+        height: 35px;
+}
+
+
+.meeting-details{
+
+    position: fixed;
+    text-align: center;
+    font-size: 14px;
+        top: 13rem;
+        left: 75rem;
+       background-color: #87b9ee;
+       width:280px;
+       height: 70px;
+       border-radius: 20px;
+    }
+
+/* Make the text clickable and styled */
+.sidebarfirsttext,
+.sidebarsectext,
+.sidebarthirdtext,
+.sidebarfourthtext,
+.sidebarfivtext,
+.sidebarrecruitmenttext {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    text-align: left;
+    margin-bottom: 15px;
+  width: 260px;
+ 
+}
+
+.sidebarfirsttext,
+.sidebarsectext,
+.sidebarthirdtext,
+.sidebarfourthtext,
+.sidebarfivtext {
+   
+    /* Smooth animation for all properties */
+}
+
+.iproinfinity{
+    color: black;
+}
+
+
+
+.sidebarfirsttext:hover,
+.sidebarsectext:hover,
+.sidebarthirdtext:hover,
+.sidebarfourthtext:hover,
+.sidebarfivtext:hover {
+    background-color: #4b56f0;
+    /* Dark gray background on hover */
+    /* width: 250px; */
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 3s ease;
+}
+
+/* Styling the profile container */
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.sidebarprofile-icon {
+    position: fixed;
+    top: 0.2rem;
+    left: 80rem;
+    width: 45px;
+    height: 45px;
+    background-color: #e0e4e8;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.profile-icon img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.newusername {
+    position: fixed;
+    top: 0.2rem;
+    left: 83rem;
+}
+
+.welcomehrms {
+    position: fixed;
+    top: 1.7rem;
+    left: 83rem;
+}
+
+.default-profile-icon {
+    font-size: 30px;
+}
+
+.user-details {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.user-details h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.user-details p {
+    font-size: 14px;
+    color: #7f8c8d;
+}
+
+
+
+.schedule-meet-container {
+    position: fixed;
+    top: -0.6rem;
+    left: 80rem;
+    width: 200px;
+    height: 10px;
+
+
+}
+
+.schedule-meet-button {
+    color: white;
+}
+
+.schedulebut {
+    background-color: blue;
+    /* Change to your desired color */
+    color: white;
+    /* Text color */
+    padding: 10px 20px;
+    /* Adjust padding */
+    border-radius: 5px;
+    /* Optional: round the corners */
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    border: none;
+    /* Optional: remove border */
+}
+
+.schedulebut:hover {
+    background-color: darkblue;
+    /* Change color on hover */
+}
+
+
+.schedulebut {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.schedulebut:hover {
+    background-color: #0056b3;
+}
+
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.modal-icon {
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.save-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.save-btn:hover {
+    background-color: #218838;
+}
+
+.newplusicon{
+    position: fixed;
+   
+            left: 90rem;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            font-size: 25px;
+        
+}
+.close-btn {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background-color: #c82333;
+}
+
+/* Calendar Container */
+.boxcontain5 {
+    width: 100%;
+    max-width: 500px;
+    /* Adjust this for desired calendar width */
+    margin: 0 auto;
+    /* Center the calendar */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.headerscalender {
+    margin-left: 2rem;
+    margin-top:-12.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 32px;
+    color: #4452f3;
+}
+
+.headerscalender h2 {
+  
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Month Name */
+.month-name {
+    margin-top: 1rem;
+    margin-left: -34rem;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+/* Weekdays */
+.weekdays {
+    margin-top: -10rem;
+    margin-left: 6rem;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* 7 columns for 7 days */
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.weekday {
+    text-align: center;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Calendar Grid */
+.calendar {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(7, 2rem);
+    /* 7 columns for the grid */
+   
+    grid-auto-rows: 30px;
+        /* Set row height to ensure all rows are equally sized */
+        padding: 10px;
+        justify-items: center;
+}
+
+/* New search box container */
+.search-box {
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    margin-top: 10px;
+    margin-left: 3rem; /* Adjust this as needed */
+}
+
+/* Search input style */
+.search-input {
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px; /* Adjust the width */
+}
+
+/* Icon styling */
+.newicon i {
+    position: fixed;
+    font-size: 20px;
+    color: #4452f3;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.newicon i:hover {
+    color: #333;
+}
+
+.search-container {
+
+    position: fixed;
+    /* Make it appear relative to its parent */
+    top: 5rem;
+    /* Adjust vertical alignment */
+    left: 63.5rem;
+    /* Adjust horizontal alignment to the left */
+}
+
+/* Search input styling */
+.search-input {
+    position: absolute;
+    top:-0.4rem;
+    left:9.3rem;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 240px;
+    height: 30px;
+    /* Adjust the width */
+    transition: all 0.3s ease;
+    /* Smooth appearance */
+}
+
+
+.arrow-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.arrow-btn {
+    position: relative;
+    left:-17rem;
+    top:2.8rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    /* Adjust size for the circle */
+    height: 30px;
+    /* Adjust size for the circle */
+    border-radius: 50%;
+    /* Makes it circular */
+    background-color: #4452f3;
+    /* Light background color */
+    font-size: 18px;
+    /* Adjust the arrow size */
+    color: #333;
+    /* Color of the arrows */
+    cursor: pointer;
+    /* Make the cursor a pointer to indicate it's clickable */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover */
+}
+.arrow-btn1 {
+    position: relative;
+    left: -2rem;
+    top: -2.8rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    /* Adjust size for the circle */
+    height: 30px;
+    /* Adjust size for the circle */
+    border-radius: 50%;
+    /* Makes it circular */
+    background-color: #4452f3;
+    /* Light background color */
+    font-size: 18px;
+    /* Adjust the arrow size */
+    color: #333;
+    /* Color of the arrows */
+    cursor: pointer;
+    /* Make the cursor a pointer to indicate it's clickable */
+    transition: background-color 0.3s ease;
+    /* Smooth transition for hover */
+}
+
+
+.arrow:hover {
+    background-color: #d1d1f0;
+    /* Change background on hover */
+}
+.day {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ececf6;
+    border-radius: 50%;
+    font-size: 14px;
+    color: #333;
+    transition: all 0.3s ease;
+   
+    /* Remove margin to avoid unnecessary space */
+    position: relative;
+    /* This keeps the element in the normal flow */
+    top: -8rem;
+    /* Align to the top */
+    left: -16.7rem;
+    /* Align to the left */
+    flex-grow: 0;
+    /* Prevents growth if you have a flexible layout */
+    flex-shrink: 0;
+    margin: 0px;
+        /* Small gap between items, adjust as needed */
+        padding: 0px;
+    /* Prevents shrinking */
+}
+
+.day:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.day.current-day {
+    background-color: #4452f3;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* Icons Container */
+.newicon {
+    position: absolute;
+    left:25rem;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.newicon i {
+    font-size: 20px;
+    /* Icon size */
+    color: #4452f3;
+    /* Icon color */
+    cursor: pointer;
+    /* Cursor change on hover */
+    transition: color 0.3s ease;
+}
+
+/* Hover Effect */
+.newicon i:hover {
+   
+    color: #333;
+    /* Change color on hover */
+}
+
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.popup-title {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.popup-form-group {
+    margin-bottom: 15px;
+}
+
+.popup-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.popup-textbox,
+.popup-datepicker,
+.popup-timepicker {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.popup-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.popup-save-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popup-close-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.popup-save-btn:hover,
+.popup-close-btn:hover {
+    opacity: 0.8;
+}
+
+.eventsshow {
+    margin-top: 20px;
+}
+
+.eventshowtext {
+    position: fixed;
+    top:27rem;
+    width:450px;
+    left:65rem;
+    background-color: #4350ef;
+    color:white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+/* If you want a more specific class for HRMS icons */
+
+/* Add Responsiveness */
+@media screen and (max-width: 600px) {
+    .boxcontain5 {
+        padding: 15px;
+    }
+
+    .day {
+        width: 30px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+    .month-name {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+    }
+
+    .content {
+        margin-left: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+}

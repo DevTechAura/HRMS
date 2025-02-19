@@ -1,0 +1,60 @@
+.applyleave{
+    position: absolute;
+        top: 13rem;
+        width: 350px;
+        height: 50px;
+        left: 60rem;
+        color: white;
+        background-color: #6AB0E3;
+}
+.LeaveSubmitted{
+position: absolute;
+    top: 18rem;
+    width: 350px;
+    height: 50px;
+    left: 60rem;
+    color: white;
+    background-color: #6AB0E3;
+}
+.leavebalance{
+    position: absolute;
+    top:23rem;
+    width:350px;
+    height:50px;
+    left:60rem;
+    color: white;
+    background-color: #6AB0E3;
+}
+
+.Companyholidays{
+    position: absolute;
+        top: 28rem;
+        width: 350px;
+        height: 50px;
+        left: 60rem;
+        color: white;
+        background-color: #6AB0E3;
+}
+
+.approver {
+    position: absolute;
+    top: 33rem;
+    width: 350px;
+    height: 50px;
+    left: 60rem;
+    color: white;
+    background-color: #6AB0E3;
+}
+.lmsimage{
+    position: absolute;
+    top:9.5rem;
+
+}
+
+.disabled-button {
+    background-color: rgb(206, 205, 205);
+    color: white;
+    cursor: not-allowed;
+    pointer-events: none;
+    /* Ensures the button is truly disabled */
+}

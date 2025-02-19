@@ -1,0 +1,192 @@
+.rectangle-box {
+    position: absolute;
+    top: 7rem;
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.header-row {
+    position: fixed;
+    width: 1200px;
+    top:5rem;
+    left:20rem;
+    background-color: #4452f3;
+    /* Blue background for header */
+    padding: 15px;
+    /* Add padding for spacing */
+    border-radius: 10px;
+    /* Optional: rounds the header corners */
+    display: grid;
+    /* Use grid to structure the header */
+    grid-template-columns: repeat(7, 1fr);
+    /* 8 equal columns for headers, added one for actions */
+    text-align: center;
+    color: white;
+    /* Center align text in headers */
+}
+
+.data-container {
+    margin-top: 10px;
+    margin-left: 20rem;
+    margin-top: 8rem;
+    /* Adds space between header and data rows */
+}
+
+.data-row {
+  
+    display: grid;
+    /* Use grid to arrange data */
+    grid-template-columns: repeat(7, 1fr);
+    /* 8 equal columns for data, added one for actions */
+    align-items: center;
+    /* Align items vertically */
+    padding: 5px 0;
+    /* Adjusted padding for data rows */
+    text-align: center;
+    /* Center align text in data rows */
+}
+
+.hr-line {
+    border: 1px solid #ccc;
+    /* Style for horizontal line */
+    margin: 10px 0;
+    /* Space above and below the line */
+}
+
+.rectangle-box1 {
+    padding: 10px;
+
+    border-radius: 5px;
+    /* Rounded corners */
+}
+
+.search-containerEDScreen {
+    position: fixed;
+    /* Make it appear relative to its parent */
+    top: 1.4rem;
+    /* Adjust vertical alignment */
+    left: 63.5rem;
+    /* Adjust horizontal alignment to the left */
+}
+
+/* Search input styling */
+.search-inputEDScreen {
+    position: absolute;
+    top: -0.4rem;
+    left: 6.3rem;
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 240px;
+    height: 30px;
+    /* Adjust the width */
+    transition: all 0.3s ease;
+    /* Smooth appearance */
+}
+
+.newiconEDscreen i {
+    position: fixed;
+    top: 20px;
+    left:85rem;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    background-color: #4452f3;
+    width: 40px;
+    /* Adjust width for consistency with height */
+    height: 40px;
+    /* Ensure the element is a perfect circle */
+    border-radius: 50%;
+    /* Use 50% for perfect circle */
+    display: flex;
+    /* Use flexbox for centering */
+    align-items: center;
+    /* Vertically center the icon */
+    justify-content: center;
+    /* Horizontally center the icon */
+    transition: color 0.3s ease;
+}
+.newiconEDscreen i:hover {
+    color: #333;
+}
+.editiconEVD{
+    position: absolute;
+    left:85rem;
+    height: 30px;
+}
+
+.editiconEVD {
+    position: absolute;
+    left: 88rem;
+    height: 30px;
+    color: #4452f3;
+    font-size:20px;
+}
+
+.deleteiconsEVD{
+position: absolute;
+    left: 90rem;
+    height: 30px;
+    color: #4452f3;
+    font-size: 20px;
+}
+.add-employee-button {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0.7rem;
+    left: 89rem;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #4452f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 26px;
+   
+        display: flex;
+        /* Use flexbox for centering */
+        align-items: center;
+        /* Vertically center the icon */
+        justify-content: center;
+        /* Horizontally center the icon */
+        transition: color 0.3s ease;
+}
+
+.EmployeelisEVD{
+    position: fixed;
+    top:1.8rem;
+    left:21rem;
+    font-size: 24px;
+    font-weight: bold;
+}
+.add-employee-button:hover {
+    background-color: #0056b3;
+}
+
+.status-buttonEVD {
+    width:100px;
+    height: 30px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+}
+
+.status-buttonEVD.active {
+    background-color: green;
+    /* Green for Active */
+}
+
+.status-buttonEVD.deactive {
+    background-color: red;
+    /* Red for Deactive */
+}
+
+

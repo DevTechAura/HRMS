@@ -1,0 +1,663 @@
+
+.employee-details {
+    display: flex;
+    flex-direction: column;
+    /* Arrange items in a column */
+    align-items: flex-start;
+    /* Align items to the left */
+    gap: 10px;
+    /* Adjust space between items */
+}
+
+.employee-details input {
+    padding: 5px;
+    /* Adjust as needed */
+}
+
+
+
+
+.form-group1,
+.form-group2,
+.form-group3,
+.form-group4,
+.form-group5,
+.form-group6,
+.form-group7,
+.form-group8,
+.form-group9,
+.form-group10,
+.form-group11,
+.form-group12,
+.form-group13,
+.form-group14,
+.form-group15,
+.form-group16,
+.form-group17,
+.form-group18,
+.form-group19,
+.form-group20,
+.form-group21,
+.form-group22,
+.form-group23,
+.form-group24,
+.form-group25,
+.form-group26,
+.form-group27,
+.form-group28,
+.form-group29,
+.form-group30,
+.form-group31,
+.form-group32,
+.form-group33,
+.form-group34,
+.form-group35,
+.form-group36,
+.form-group37,
+.form-group38 {
+    margin-bottom: 10px;
+    /* Adjust this value as needed */
+}
+
+.form-group1 {
+    position: absolute;
+    top: 5rem;
+    left: 26rem;
+    width: 320px;
+}
+
+.form-group2 {
+    position: absolute;
+    top: 5rem;
+    left: 49rem;
+    width: 320px;
+}
+
+
+
+.form-groups2{
+position: absolute;
+    top: 5rem;
+    left: 72.5rem;
+    width: 320px;
+}
+
+
+.form-group5 {
+position: absolute;
+    top: 10.7rem;
+    left: 49rem;
+    width: 320px;
+}
+
+.form-group9 {
+    position: absolute;
+        top: 32.4rem;
+        left: 49rem;
+        width: 320px;
+}
+
+
+.form-group4 {
+position: absolute;
+    top: 10.7rem;
+    left: 26rem;
+    width: 320px;
+}
+.form-group8 {
+position: absolute;
+    top: 22.2rem;
+    left: 3rem;
+    width: 320px;
+}
+
+.form-group7 {
+position: absolute;
+    top: 11rem;
+    left: 72.5rem;
+    width: 320px;
+}
+
+.form-group6 {
+position: absolute;
+    top: 16.5rem;
+    left: 3rem;
+    width: 320px;
+}
+
+.form-group18 {
+position: absolute;
+    top: 16.5rem;
+    left: 26rem;
+    width: 320px;
+}
+
+.form-group19 {
+position: absolute;
+    top: 16.5rem;
+    left: 49rem;
+    width: 320px;
+}
+
+.form-group30 {
+    position: absolute;
+    top: 16.5rem;
+    left: 72.5rem;
+    width: 320px;
+}
+
+.form-group31 {
+    position: absolute;
+        top: 22.2rem;
+        left: 72.5rem;
+        width: 320px;
+}
+
+.form-group14 {
+    position: absolute;
+        top: 22.2rem;
+        left: 26rem;
+        width: 320px;
+}
+
+
+.form-group29 {
+    position: absolute;
+    top: 22rem;
+    left: 49rem;
+    width: 320px;
+}
+.employment-info-box {
+    position: absolute;
+    
+    width: 95vw;
+    /* Set width to cover the entire viewport width */
+    height: 50px;
+    /* Fixed height */
+    background-color: #6AB0E3;
+    /* Rectangle color */
+    border-radius: 8px;
+    /* Rounded corners */
+    display: flex;
+    /* Use flexbox for centering content */
+    align-items: center;
+    /* Center items vertically */
+    justify-content: center;
+    /* Center items horizontally */
+    color: black;
+    /* Text color inside the box */
+    font-size: 18px;
+    /* Font size for the heading */
+    position: absolute;
+    /* Use absolute positioning if needed */
+    left: 2%;
+    /* Align to the left */
+    top: 29rem;
+    /* Position at the bottom of the form or container */
+    z-index: 10;
+    /* Optional: Ensure it appears above other elements */
+}
+
+.form-group17{
+position: absolute;
+    top: 32.4rem;
+    left: 3rem;
+    width: 320px;
+}
+
+.form-group10 {
+    position: absolute;
+        top: 32.4rem;
+        left: 26rem;
+        width: 320px;
+}
+.form-group3{
+position: absolute;
+    top: 32.4rem;
+    left: 26rem;
+    width: 320px;
+}
+
+.form-group11 {
+    position: absolute;
+        top: 32.4rem;
+        left: 72.5rem;
+        width: 320px;
+}
+
+.form-group20 {
+    position: absolute;
+        top: 38rem;
+        left: 3rem;
+        width: 320px;
+}
+
+.form-group21 {
+    position: absolute;
+        top: 32.4rem;
+        left: 3rem;
+        width: 320px;
+}
+.form-group22 {
+    position: absolute;
+    
+        top: 38.7rem;
+        left: 49rem;
+        width: 320px;
+    
+}
+
+
+.form-group15 {
+    position: absolute;
+        top: 38rem;
+        left: 26rem;
+        width: 320px;
+}
+.form-group12 {
+    position: absolute;
+    top: 38rem;
+    left: 3rem;
+    width: 320px;
+}
+.form-group13 {
+    position: absolute;
+        top: 38rem;
+        left: 49rem;
+        width: 320px;
+}
+
+.form-group32 {
+    position: absolute;
+        top: 44rem;
+        left: 49rem;
+        width: 320px;
+}
+
+.Benefits {
+position: absolute;
+    top: 50rem;
+    height: 50px;
+    left: 2%;
+    background-color: #6AB0E3;
+    border-radius: 8px;
+    width: 45vw;
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    /* Vertically centers the text */
+    justify-content: center;
+    /* Horizontally centers the text */
+}
+
+.Certificates {
+    position: absolute;
+        top: 50rem;
+        height: 50px;
+        left: 52%;
+        background-color: #6AB0E3;
+        border-radius: 8px;
+        width: 45vw;
+        z-index: 10;
+    
+        display: flex;
+        align-items: center;
+        /* Vertically centers the text */
+        justify-content: center;
+        /* Horizontally centers the text */
+}
+.form-group23 {
+    position: absolute;
+    top: 53.7rem;
+    left: 3rem;
+    width: 310px;
+}
+.form-group24 {
+    position: absolute;
+    top: 53.7rem;
+    left: 26rem;
+    width: 320px;
+}
+
+.form-group25 {
+    position: absolute;
+        top: 59.1rem;
+        left: 3rem;
+        width: 320px;
+}
+.form-group26 {
+    position: absolute;
+        top: 59.1rem;
+        left: 26rem;
+        width: 320px;
+}
+.form-group27 {
+position: absolute;
+    top: 64.5rem;
+    left: 3rem;
+    width: 320px;
+}
+.form-group28 {
+    position: absolute;
+    top: 64.5rem;
+    left: 26rem;
+    width: 320px;
+}
+.form-group16 {
+    position: absolute;
+    top: 38rem;
+    left: 72.5rem;
+    width: 320px;
+}
+
+.form-group33 {
+    position: absolute;
+        top: 53.7rem;
+        left: 49rem;
+        width: 320px;
+}
+
+.form-group34 {
+position: absolute;
+    top: 53.7rem;
+    left: 72.5rem;
+    width: 320px;
+}
+.form-group35 {
+    position: absolute;
+        top: 59rem;
+        left: 49rem;
+        width: 320px;
+}
+.form-group36 {
+    position: absolute;
+        top: 59rem;
+        left: 72.5rem;
+        width: 320px;
+}
+
+.form-group37 {
+    position: absolute;
+    display: flex;
+    top: 68rem;
+    left: 49rem;
+    width: 320px;
+}
+
+.form-group38 {
+    position: absolute;
+    display: flex;
+    top: 68rem;
+    left: 71rem;
+    width: 320px;
+}
+.updateEmployee{
+    position: absolute;
+        top: 73rem;
+        left: 35rem;
+        width: 320px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #2196F3;
+}
+
+input:checked+.slider:before {
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.edit-icon {
+    position: absolute;
+    top:45px;
+    left: 17.5rem;
+    /* Margin to separate it from the label */
+    cursor: pointer;
+    /* Pointer cursor on hover */
+    color: #000;
+    /* Default color */
+    transition: color 0.3s;
+    /* Smooth color transition */
+}
+
+/* Change color on hover */
+.edit-icon:hover {
+    color: blue;
+    /* Change this to your preferred hover color */
+}
+
+/* Adjust size if needed */
+.edit-icon svg {
+    width: 20px;
+    /* Change width */
+    height: 20px;
+    /* Change height */
+}
+
+.modal {
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Black background with transparency */
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 5px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Styles for input hover */
+.form-group1 input{
+    background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+    /* Indicate that editing is restricted */
+}
+
+.form-group2 input{
+    background-color: #c6cacc;
+        /* Change background color on hover */
+        cursor: not-allowed;
+}
+
+.form-group4 input{
+    background-color: #c6cacc;
+        /* Change background color on hover */
+        cursor: not-allowed;
+}
+
+.form-group7 input{
+background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+}
+
+
+.form-group8 input{
+background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+}
+
+.form-group5 input{
+background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+}
+
+.form-group14 input{
+background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+}
+
+.form-group6 input{
+background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+}
+
+.form-group23 input{
+background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+}
+
+.form-group24 input{
+background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+}
+
+.form-group25 input{
+background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+}
+.form-group26 input{
+background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+}
+.form-groups2 input{
+background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+}
+.form-group27 input{
+background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+}
+
+.form-group28 input{
+background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+}
+
+.form-group29 input{
+    background-color: #c6cacc;
+        /* Change background color on hover */
+        cursor: not-allowed;
+}
+.form-group18 input {
+    background-color: #c6cacc;
+        /* Change background color on hover */
+        cursor: not-allowed;
+}
+
+.form-group19 input{
+    background-color: #c6cacc;
+        /* Change background color on hover */
+        cursor: not-allowed;
+}
+
+.form-group30 input {
+    background-color: #c6cacc;
+        /* Change background color on hover */
+        cursor: not-allowed;
+}
+.form-group31 input{
+background-color: #c6cacc;
+    /* Change background color on hover */
+    cursor: not-allowed;
+}
+
+
+.form-group11 input,
+.form-group15 input,
+
+.form-group17 input,
+.form-group20 input,
+.form-group21 input,
+.form-group33 input,
+.form-group34 input,
+.form-group35 input,
+.form-group36 input{
+
+        background-color: white;
+}
+
+.form-group10 input,
+.form-group9 input,
+.form-group16 input,
+.form-group12 input,
+.form-group13 input{
+background-color: rgb(223, 237, 249);
+}
+
+.ovelimage{
+    position: absolute;
+    left:6rem;
+    top:6rem;
+}

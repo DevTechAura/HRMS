@@ -1,0 +1,303 @@
+
+.Leave-head {
+    color: #fff;
+    background-color: #4b55f3;
+    position: sticky;
+    /* Use sticky for table headers */
+    top: 2rem;
+    /* Keeps the header visible when scrolling */
+    z-index: 1;
+    /* Ensures header stays on top */
+}
+
+
+
+.Leave-body {
+    margin-top: 3rem;
+    /* Add space between header and body if needed */
+}
+
+.Leave-head th,
+.Leave-body td {
+    padding: 10px 20px;
+    /* Consistent padding for cells */
+    text-align: left;
+    /* Align text to the left for readability */
+}
+
+tbody tr {
+    border-bottom: 1px solid #ddd;
+    /* Add a border for row separation */
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    /* Optional: subtle background color for rows */
+}
+
+table {
+    border-collapse: collapse;
+    /* Ensures borders don't double up */
+    width: 100%;
+    /* Makes the table span the container width */
+    margin: 0 auto;
+    /* Centers the table */
+}
+.applyleave{
+    position: absolute;
+    width: 250px;
+    left:70rem;
+    top:7rem;
+}
+
+.firstgridLB{
+    position: fixed;
+    left:22rem;
+    top:6rem;
+    height:80px;
+    width:1150px;
+    background-color:white ;
+    border-radius: 20px;
+
+}
+.ELDLB{
+    position: fixed;
+    top:1.5rem;
+    left: 21rem;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.Enamelb{
+    position: fixed;
+    top:7rem;
+    left: 23rem;
+}
+
+.Enamelbd{
+    position: fixed;
+        top: 8.5rem;
+        left: 23rem;
+}
+
+.Eidlb{
+    position: fixed;
+        top: 7rem;
+        left: 40rem;
+}
+
+.Eidlbd {
+    position: fixed;
+    top: 8.5rem;
+    left: 40rem;
+    color: darkslategray;
+}
+
+.Edeplb{
+    position: fixed;
+        top: 7rem;
+        left: 55rem;
+}
+
+.Edeplbd {
+    position: fixed;
+    top: 8.5rem;
+    left: 55rem;
+}
+.Ejoiningdatelb{
+    position: fixed;
+        top: 7rem;
+        left: 70rem;
+}
+
+.Ejoiningdatelbd {
+    position: fixed;
+    top: 8.5rem;
+    left: 70rem;
+}
+
+.Ename2grid{
+    position: fixed;
+    top:14rem;
+    left:25rem;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.annualleavelb{
+    position: fixed;
+    top:16.5rem;
+    left:24rem;
+    height:60px;
+    width:140px;
+    border-radius: 30px;
+    background-color: #f4f7fc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.annualleavelbtext{
+    position: fixed;
+    top: 21rem;
+    left:25.5rem;
+}
+
+.assignedleavebox{
+    position: absolute;
+    left:3.6rem;
+    top:1.2rem;
+}
+
+.pendingleavebox{
+    position: absolute;
+        left: 3.6rem;
+        top: 1.2rem;
+}
+.medicalleavelb{
+    position: fixed;
+        top: 16.5rem;
+        left: 37rem;
+        height: 60px;
+        width: 140px;
+        border-radius: 30px;
+        background-color: #fff8f2;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.medicallbtext{
+    position: fixed;
+        top: 21rem;
+        left: 38rem;
+}
+.casuallb{
+position: fixed;
+    top: 16.5rem;
+    left: 50rem;
+    height: 60px;
+    width: 140px;
+    border-radius: 30px;
+    background-color: #eef6f8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.casualtext{
+position: fixed;
+    top: 21rem;
+    left: 51.5rem;
+}
+
+.remaininglb{
+    position: fixed;
+        top: 16.5rem;
+        left: 63rem;
+        height: 60px;
+        width: 140px;
+        border-radius: 30px;
+        background-color: #ecf3ed;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.remainingtext{
+position: fixed;
+    top: 21rem;
+    left: 64rem;
+}
+.Companyholidays{
+    position: absolute;
+        width: 250px;
+        left: 70rem;
+        top: 10.2rem;
+}
+
+.secondgridlb{
+    position: fixed;
+    top:12.2rem;
+    left:22rem;
+    height: 180px;
+    width: 850px;
+    border-radius: 20px;
+    background-color: white;
+    }
+
+.thirdgirdlb{
+position: fixed;
+    top: 24.6rem;
+    left: 22rem;
+    height: 318px;
+    width: 850px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.fourthgirdlb{
+position: fixed;
+    top: 12.4rem;
+    left: 76.4rem;
+    height: 220px;
+    width: 280px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.fivthgirdlb{
+position: fixed;
+    top: 27.4rem;
+    left: 76.4rem;
+    height: 272px;
+    width: 280px;
+    border-radius: 20px;
+    background-color: white;
+}
+.approver{
+    position: absolute;
+        width: 250px;
+        left: 70rem;
+        top: 16.6rem;
+}
+
+.LeaveSubmitted{
+    position: absolute;
+        width: 250px;
+        left: 70rem;
+        top: 13.4rem;
+}
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #4b55f3;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+} 
+
+.HRMS-applyleave{
+    color: #fff;
+    background-color: #4b55f3;
+    border-radius: 10px;
+    position: absolute;
+    top:9.3rem;
+    left:80rem;
+    width:200px;
+    height:35px;
+
+}
+
+.company-holiday{
+    color:#4b55f3;
+    position: absolute;
+    top:1rem;
+    left:1rem;
+    font-weight: bold;
+}
+
+.holiday-list{
+    color: black;
+        position: absolute;
+        top: 3rem;
+        left: 1.5rem;
+        font-weight: bold;
+}
+

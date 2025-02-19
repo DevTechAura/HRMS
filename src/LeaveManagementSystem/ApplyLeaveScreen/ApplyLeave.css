@@ -1,0 +1,201 @@
+.paidtimeoff{
+    position: absolute;
+    top:7rem;
+    width:350px;
+    height: 50px;
+    left :7rem;
+    background-color: #6AB0E3;
+}
+
+.Sickoff{
+    position: absolute;
+    top:12rem;
+        width: 350px;
+        height: 50px;
+        left: 7rem;
+        background-color: #6AB0E3;
+    }
+
+
+.leavewithoutpay{
+    position: absolute;
+    top:17rem;
+        width: 350px;
+        height: 50px;
+        left: 7rem;
+        background-color: #6AB0E3;
+    }
+.Leavetype{
+position: absolute;
+    left: 48rem;
+    top: 6rem;
+    block-size: 26px;
+    font-size: larger;
+    
+}
+
+
+.paidtimeoff,
+.Sickoff,
+.leavewithoutpay {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    right:10rem;
+    /* Space between text and icon */
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.fa-arrow-right {
+    position: absolute;
+    left:19rem;
+    font-size: 1em;
+    /* Adjust icon size if needed */
+}
+
+ .apply-leave-container{
+    position: absolute;
+    left:55rem;
+    top:6.1rem;
+    block-size: 26px;
+    font-size: larger;
+    width:250px;
+   
+    
+} 
+
+.leave-type-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid black;
+    /* Black border */
+    background-color: white;
+    /* White background */
+    color: black;
+    /* Text color */
+    border-radius: 4px;
+    margin-top: 5px;
+}
+.leave-type-input1 {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid black;
+    /* Black border */
+    background-color: white;
+    /* White background */
+    color: black;
+    /* Text color */
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+.leave-type-input:focus {
+    outline: none;
+    /* Removes the default blue outline when the input is focused */
+    border-color: black;
+    /* Ensures border remains black when focused */
+}
+.leave-form {
+    position: absolute;
+    top:5.5rem;
+        left: 55rem;
+        font-size: 0.9em;
+        width:280px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* Space between label and input */
+    margin-top: 20px;
+}
+
+.startdate{
+    position: absolute;
+    top:11rem;
+        left: 48rem;
+        font-size: 0.9em;
+        width:350px;
+}
+.LMSD{
+    position: absolute;
+    top:1.2rem;
+    Left:-6.4rem;
+    font-weight: 600;
+    font-size: 18px;
+}
+.enddate{
+    position: absolute;
+        top: 16.5rem;
+        left: 48rem;
+        font-size: 0.9em;
+        width: 350px;
+        
+}
+
+.LMED{
+position: absolute;
+    top: 1.3rem;
+    Left: -6.4rem;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.LMsubmit{
+    position: absolute;
+    top:40rem;
+    width:350px;
+}
+
+.Reason{
+    position: absolute;
+    display: 1flex;
+        top: 27rem;
+        Left: 49rem;
+        font-weight: 600;
+        font-size: 18px;
+        
+}
+
+.TNAL{
+    position: absolute;
+        
+        top: 22.5rem;
+        Left: 48rem;
+}
+.TNPL{
+    position: absolute;
+        top: 25rem;
+        Left: 48rem;
+}
+.reason {
+    position: absolute;
+    margin: 20px 0;
+    top:26rem;
+    left:48rem;
+}
+
+.leave-type-input1 {
+    width: 130%;
+    height: 80px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.submit-btn{
+    position: absolute;
+    top:35rem;
+    width:250px;
+    right:45rem;
+}
+.Toastify__toast--success {
+    background-color: #4caf50;
+    color: white;
+}
+
+.Toastify__toast--error {
+    background-color: #f44336;
+    color: white;
+}
